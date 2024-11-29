@@ -1,0 +1,5 @@
+<launch>
+    <node name="imu_reader" pkg="my_ros_tool" type="demo_imu_read" output="screen">
+        <param name="odom_eigen_csv_file" value="/home/ifly/MyWork/mytools_ws/src/data/your_output.csv"/>
+    </node>
+</launch>

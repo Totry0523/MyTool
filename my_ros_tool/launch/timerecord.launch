@@ -1,0 +1,5 @@
+<launch>
+    <node name="demo_imu_data" pkg="your_package_name" type="your_node_executable" output="screen">
+        <param name="odom_eigen_csv_file" value="/home/ifly/MyWork/mytools_ws/src/data/your_output.csv"/>
+    </node>
+</launch>
